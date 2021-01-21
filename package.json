@@ -1,0 +1,25 @@
+{
+  "name": "socketexam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pkg . --targets node12-win-x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^3.1.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.9"
+  },
+  "bin": {
+    "app": "./app.js"
+  },
+  "pkg": {
+    "assets": "public/**/*"
+  }
+}
